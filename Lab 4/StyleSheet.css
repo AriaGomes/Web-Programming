@@ -1,0 +1,141 @@
+#menu 
+{
+    top: 160px;
+    right: 150px;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family:impact;
+    width: 225px;
+    border-style: solid;
+    font-size: 12pt;
+    color: darkviolet;
+}
+
+h2
+{
+    text-align: center;
+    color: aqua;
+}
+
+#header 
+{
+    color: #FF0000;
+    font-size: 20pt;
+    font-family: fantasy;
+    max-width: 100%;
+}
+
+.title 
+{
+    text-align: center;
+}
+
+table 
+{
+    background-color: black;
+    border-style: groove;
+    width:100%;
+}
+
+#content 
+{
+    color: #FF0000;
+    font-size: 12pt;
+    font-family: fantasy;
+}
+
+#content tr
+{
+    color: aqua;
+    text-align: center;
+}
+
+html
+{
+    background-color: dimgrey;
+}
+
+[title="Content"] 
+{
+    color: aqua;
+    text-align: center;
+}
+
+
+#content tr td p 
+{
+    color: deeppink;
+    text-align: center;
+}
+
+.span2
+{
+    display: none;
+}
+
+.span1:hover
+{
+    content: span2;
+    text-transform: uppercase;
+    color: firebrick;
+}
+
+#footer tr td
+{
+    bottom: 10px;
+    color: coral;
+}
+
+#footer
+{
+    margin-top: 25px;
+    bottom: 10px;
+    position: relative;
+}
+
+audio
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+video
+{
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+#idEx
+{
+    background-color: aqua;
+}
+
+.classEx
+{
+    font-family: cursive;
+}
+
+.contextualEx td p
+{
+    font-size: 18pt;
+}
+
+[class="attributeEx"]
+{
+    color: olive;
+}
